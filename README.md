@@ -16,7 +16,7 @@ yarn add react-jest --dev
 ## Features
 
 - `.js|jsx` files are transformed with `babel-preset-react-app` which is used by `create-react-app`, you can also use custom `.babelrc`.
-- Run tests in node enviroment by default.
+- Run tests in `jsdom` enviroment by default.
 - Importing css files would return an empty object, while importing other kinds of file would return the path to it.
 - Support all Jest cli options.
 - Support API usage.
@@ -33,7 +33,7 @@ Let's say that you already wrote some jest tests for your React app, for example
 }
 ```
 
- Then run `npm test`, and it accepts all [jest cli options](https://facebook.github.io/jest/docs/cli.html), for example if you need a browser environment, use `react-jest --env=jsdom`.
+ Then run `npm test`, and it accepts all [jest cli options](https://facebook.github.io/jest/docs/cli.html), for example if you don't need browser environment, use `react-jest --env=node`.
 
  <img src="https://ooo.0o0.ooo/2017/04/24/58fdf46d3d183.png" alt="preview" />
 
@@ -75,7 +75,7 @@ function mutateJestConfig(config) {
 
 Type: `Array`
 
-Addtional CLI arguments for jest cli, like `['--env=jsdom']`
+Addtional CLI arguments for jest cli, like `['--env=node']`
 
 ## Contributing
 
