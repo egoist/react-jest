@@ -1,6 +1,6 @@
 {
   "name": "react-jest",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Node.js API for running jest to test React apps. ",
   "repository": {
     "url": "egoist/react-jest",
