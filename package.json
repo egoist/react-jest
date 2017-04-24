@@ -1,0 +1,45 @@
+{
+  "name": "react-jest",
+  "version": "0.0.0",
+  "description": "Node.js API for running jest to test React apps. ",
+  "repository": {
+    "url": "egoist/react-jest",
+    "type": "git"
+  },
+  "main": "lib/index.js",
+  "bin": "bin/cli.js",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "node test/index.test.js && npm run lint",
+    "lint": "xo"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "jest-cli": "^18.1.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "extends": "rem",
+    "esnext": true,
+    "envs": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "babel-jest": "^19.0.0",
+    "babel-preset-react-app": "^2.2.0",
+    "jest": "^19.0.2",
+    "lodash.merge": "^4.6.0",
+    "read-pkg": "^2.0.0"
+  }
+}
