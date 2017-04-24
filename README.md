@@ -35,7 +35,7 @@ Let's say that you already wrote some jest tests for your React app, for example
 
  Then run `npm test`, and it accepts all [jest cli options](https://facebook.github.io/jest/docs/cli.html), for example if you don't need browser environment, use `react-jest --env=node`.
 
- <img src="https://ooo.0o0.ooo/2017/04/24/58fdf46d3d183.png" alt="preview" />
+ <img src="https://ooo.0o0.ooo/2017/04/24/58fdf89eda405.png" alt="preview" />
 
  Which is also worth noting, you can still configure `jest` field in `package.json`, `react-jest` will load it automatically.
 
