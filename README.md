@@ -2,6 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/react-jest.svg?style=flat)](https://npmjs.com/package/react-jest) [![NPM downloads](https://img.shields.io/npm/dm/react-jest.svg?style=flat)](https://npmjs.com/package/react-jest) [![CircleCI](https://circleci.com/gh/egoist/react-jest/tree/master.svg?style=shield)](https://circleci.com/gh/egoist/react-jest/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
 
+Inspired by `create-react-app` but `react-jest` comes as a standalone module, basically this would work out of the box for projects created by `create-react-app` and most React projects.
+
 ## Install
 
 ```bash
