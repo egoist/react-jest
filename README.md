@@ -66,7 +66,7 @@ Use a function to mutate base jest config:
 ```js
 function mutateJestConfig(config) {
   // Use polyfill before each test
-  config.setupFiles = './src/polyfills.js'
+  config.setupFiles = ['./src/polyfills.js']
   return config
 }
 ```
