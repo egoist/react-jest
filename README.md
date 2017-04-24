@@ -15,7 +15,7 @@ yarn add react-jest --dev
 
 - `.js|jsx` files are transformed with `babel-preset-react-app` which is used by `create-react-app`.
 - Run tests in node enviroment by default.
-- Importing css files would return an empty object, which importing other kinds of file would return the path to it.
+- Importing css files would return an empty object, while importing other kinds of file would return the path to it.
 - Support all Jest cli options
 - Support API usage
 
